@@ -1,10 +1,14 @@
-import React from "react";
+import { Fragment } from "react";
 
 
 
 const App = () => {
 
-
-    return <span>Component</span>
+  return (
+    <Fragment>
+      Component
+    </Fragment>
+  );
 }
+
 export default App;
